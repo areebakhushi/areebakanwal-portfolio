@@ -8,7 +8,7 @@ export const CONTACT = {
   email: "areeba.kanwal@example.com",
   github: "https://github.com/",
   linkedin: "https://www.linkedin.com/",
-  location: "Lahore, Pakistan",
+  location: "Rawalpindi, Pakistan",
 };
 
 const LINKS = [
