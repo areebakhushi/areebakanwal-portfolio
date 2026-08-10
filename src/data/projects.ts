@@ -315,7 +315,7 @@ export const projects: Project[] = [
 
   {
     id: "wedding-invite",
-    index: "09",
+    index: "11",
     title: "Digital Wedding Invitation",
     kicker: "Cinematic invite web experience",
     tagline: "An invitation that unfolds like a short film.",
@@ -337,7 +337,7 @@ export const projects: Project[] = [
   },
   {
     id: "wordpress",
-    index: "10",
+    index: "12",
     title: "WordPress Websites",
     kicker: "NexCraftStudio Internship",
     tagline: "Business sites, built to be handed over.",
