@@ -22,8 +22,8 @@ import rb5 from "@/assets/ratebridge-5.png.asset.json";
 import rb6 from "@/assets/ratebridge-6.png.asset.json";
 import rb7 from "@/assets/ratebridge-7.png.asset.json";
 import rb8 from "@/assets/ratebridge-8.png.asset.json";
-import rb9 from "@/assets/ratebridge-9.png.asset.json";
-import codeChatImg from "@/assets/codechat.jpg.asset.json";
+import cc1 from "@/assets/codechat-1.png.asset.json";
+import cc2 from "@/assets/codechat-2.png.asset.json";
 
 import zk1 from "@/assets/zikar-183503.png.asset.json";
 import zk2 from "@/assets/zikar-183524.png.asset.json";
@@ -113,16 +113,14 @@ export const projects: Project[] = [
     tone: "gold",
     layout: "gallery",
     media: [
-      
-      { kind: "image", src: rb9.url, portrait: true, caption: "Supplier portal splash" },
       { kind: "image", src: rb1.url, portrait: true, caption: "Supplier login" },
       { kind: "image", src: rb2.url, portrait: true, caption: "Supplier sign-up" },
       { kind: "image", src: rb3.url, portrait: true, caption: "Account verification" },
       { kind: "image", src: rb4.url, portrait: true, caption: "Supplier dashboard" },
       { kind: "image", src: rb5.url, portrait: true, caption: "Add new material" },
-      { kind: "image", src: rb6.url, portrait: true, caption: "Material catalogue" },
-      { kind: "image", src: rb8.url, portrait: true, caption: "Edit material & pricing" },
-      { kind: "image", src: rb7.url, portrait: true, caption: "Buyer feedback & ratings" },
+      { kind: "image", src: rb7.url, portrait: true, caption: "Edit material & pricing" },
+      { kind: "image", src: rb6.url, portrait: true, caption: "Buyer feedback & ratings" },
+      { kind: "image", src: rb8.url, portrait: true, caption: "Supplier profile" },
     ],
     badge: "Final Year Project",
   },
@@ -210,8 +208,11 @@ export const projects: Project[] = [
     tech: ["Flutter", "Dart", "OpenRouter AI"],
     role: "Product idea, app development, AI integration",
     tone: "electric",
-    layout: "split",
-    media: [{ kind: "image", src: codeChatImg.url }],
+    layout: "gallery",
+    media: [
+      { kind: "image", src: cc1.url, portrait: true, caption: "Starter questions" },
+      { kind: "image", src: cc2.url, portrait: true, caption: "Code answer with highlighting" },
+    ],
   },
   {
     id: "zikar",
