@@ -1,24 +1,42 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Nav } from "@/components/site/Nav";
+import { Hero } from "@/components/site/Hero";
+import { About } from "@/components/site/About";
+import { Projects } from "@/components/site/Projects";
+import { Skills } from "@/components/site/Skills";
+import { Journey } from "@/components/site/Journey";
+import { Contact } from "@/components/site/Contact";
+import { CustomCursor } from "@/components/site/CustomCursor";
 
-// No head() here: the home route inherits title/description/og/twitter from
-// __root.tsx, and ships no og:image so serve-time hosting can inject the
-// project's social preview (explicit og:image or latest screenshot).
+const TITLE = "Areeba Kanwal — Flutter Mobile Developer";
+const DESCRIPTION =
+  "Flutter developer building AI-powered mobile apps with Firebase. Top 10 Bano Qabil HPT · 11+ shipped products including BQ Spark, RateBridge and SpendWise.";
+
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: TITLE },
+      { name: "description", content: DESCRIPTION },
+      { property: "og:title", content: TITLE },
+      { property: "og:description", content: DESCRIPTION },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+  }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
+    <main className="relative">
+      <CustomCursor />
+      <Nav />
+      <Hero />
+      <About />
+      <Projects />
+      <Skills />
+      <Journey />
+      <Contact />
+    </main>
   );
 }
