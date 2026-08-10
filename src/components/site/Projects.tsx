@@ -240,7 +240,7 @@ export function Projects() {
           </Reveal>
           <SplitText
             as="h2"
-            text="Thirteen products, from student platforms to AI tools."
+            text="Selected products, from student platforms to AI tools."
             className="display mt-5 text-[clamp(2.2rem,5.5vw,4.5rem)]"
           />
           <Reveal delay={0.15}>
