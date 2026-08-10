@@ -240,14 +240,16 @@ export function Projects() {
           </Reveal>
           <SplitText
             as="h2"
-            text="Eleven products, from student platforms to AI tools."
+            text="Thirteen products, from student platforms to AI tools."
             className="display mt-5 text-[clamp(2.2rem,5.5vw,4.5rem)]"
           />
           <Reveal delay={0.15}>
             <p className="mt-6 max-w-xl leading-relaxed text-muted-foreground">
-              Real builds with real screens — recorded demos, shipped features and the stack behind each one.
+              Real builds with real screens — recorded demos, shipped features and the stack behind each one. Including
+              specially designed websites for special occasions, made for special ones — never templates.
             </p>
           </Reveal>
+
         </div>
 
         <div className="mt-8">
