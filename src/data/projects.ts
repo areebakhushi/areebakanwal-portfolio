@@ -22,8 +22,8 @@ import rb5 from "@/assets/ratebridge-5.png.asset.json";
 import rb6 from "@/assets/ratebridge-6.png.asset.json";
 import rb7 from "@/assets/ratebridge-7.png.asset.json";
 import rb8 from "@/assets/ratebridge-8.png.asset.json";
-import rb9 from "@/assets/ratebridge-9.png.asset.json";
-import codeChatImg from "@/assets/codechat.jpg.asset.json";
+import cc1 from "@/assets/codechat-1.png.asset.json";
+import cc2 from "@/assets/codechat-2.png.asset.json";
 
 import zk1 from "@/assets/zikar-183503.png.asset.json";
 import zk2 from "@/assets/zikar-183524.png.asset.json";
