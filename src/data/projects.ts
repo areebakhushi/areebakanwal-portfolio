@@ -208,8 +208,11 @@ export const projects: Project[] = [
     tech: ["Flutter", "Dart", "OpenRouter AI"],
     role: "Product idea, app development, AI integration",
     tone: "electric",
-    layout: "split",
-    media: [{ kind: "image", src: codeChatImg.url }],
+    layout: "gallery",
+    media: [
+      { kind: "image", src: cc1.url, portrait: true, caption: "Starter questions" },
+      { kind: "image", src: cc2.url, portrait: true, caption: "Code answer with highlighting" },
+    ],
   },
   {
     id: "zikar",
