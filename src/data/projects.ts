@@ -8,8 +8,6 @@ import spendVideo from "@/assets/spendwise.mp4.asset.json";
 import spendPoster from "@/assets/spendwise.jpg.asset.json";
 import littleVideo from "@/assets/littledream.mp4.asset.json";
 import littlePoster from "@/assets/littledream.jpg.asset.json";
-import countdownVideo from "@/assets/countdown.mp4.asset.json";
-import countdownPoster from "@/assets/countdown.jpg.asset.json";
 import countdownVideo2 from "@/assets/countdown-2.mp4.asset.json";
 import countdownPoster2 from "@/assets/countdown-2.jpg.asset.json";
 import iqraVideo from "@/assets/birthday-iqra.mp4.asset.json";
@@ -31,7 +29,7 @@ import zk1 from "@/assets/zikar-183503.png.asset.json";
 import zk2 from "@/assets/zikar-183524.png.asset.json";
 import zk3 from "@/assets/zikar-183546.png.asset.json";
 import zk4 from "@/assets/zikar-183609.png.asset.json";
-import wordpressImg from "@/assets/wordpress.jpg.asset.json";
+import wordpressImg from "@/assets/wordpress-nexcraft.jpg.asset.json";
 
 
 export type Tone = "cyan" | "electric" | "magenta" | "gold" | "jade";
@@ -288,8 +286,7 @@ export const projects: Project[] = [
     tone: "magenta",
     layout: "gallery",
     media: [
-      { kind: "video", src: countdownVideo.url, poster: countdownPoster.url, portrait: true, caption: "Countdown to her day" },
-      { kind: "video", src: countdownVideo2.url, poster: countdownPoster2.url, portrait: true, caption: "Daily countdown screen with music & voice" },
+      { kind: "video", src: countdownVideo2.url, poster: countdownPoster2.url, portrait: true, caption: "Countdown to her day" },
     ],
   },
   {
