@@ -54,19 +54,21 @@ export function About() {
           <div className="space-y-8">
             <Reveal delay={0.05}>
               <p className="text-lg leading-relaxed text-foreground/90 sm:text-xl">
-                I&apos;m a Flutter developer and BS Information Technology student at the{" "}
-                <span style={{ color: "var(--tone-cyan)" }}>University of Punjab</span>. I build cross-platform
-                mobile applications with Flutter and Dart, with experience in Firebase, AI integrations, UI/UX and
-                web development.
+                I&apos;m Areeba Kanwal, a BS Information Technology graduate from the{" "}
+                <span style={{ color: "var(--tone-cyan)" }}>University of the Punjab</span> and a Flutter Developer
+                focused on building cross-platform mobile applications with Flutter and Dart, with experience in
+                Firebase, AI integrations, UI/UX and web development.
               </p>
             </Reveal>
             <Reveal delay={0.12}>
               <p className="leading-relaxed text-muted-foreground">
-                Selected for Bano Qabil&apos;s High Performance Track and ranked in the top 10 of the Mobile
-                Development cohort. I&apos;ve shipped student platforms, offline-first finance tools, AI assistants
-                and interactive web experiences — and I&apos;m building{" "}
+                I have practical experience through my courses, academic projects, internship experience and
+                independent development — selected for Bano Qabil&apos;s High Performance Track and ranked in the top
+                10 of the Mobile Development cohort. I built{" "}
                 <span className="text-foreground">RateBridge</span>, an AI construction price platform, as my Final
-                Year Project.
+                Year Project. I&apos;m currently focused on improving my technical skills and looking for
+                Flutter/mobile development jobs, internships, junior developer roles and other professional software
+                development opportunities.
               </p>
             </Reveal>
 
