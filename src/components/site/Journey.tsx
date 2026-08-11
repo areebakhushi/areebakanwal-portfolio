@@ -14,9 +14,9 @@ type Entry = {
 
 const TIMELINE: Entry[] = [
   {
-    period: "Ongoing",
+    period: "Completed",
     title: "BS Information Technology",
-    place: "University of Punjab",
+    place: "University of the Punjab",
     tone: "cyan",
     kind: "education",
     points: [
