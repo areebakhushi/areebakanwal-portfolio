@@ -69,6 +69,41 @@ const AWARDS = [
   { title: "Web Development Certificate", note: "HTML, CSS, JavaScript & WordPress", tone: "magenta" },
   { title: "11+ Projects Delivered", note: "Mobile apps and interactive web experiences", tone: "jade" },
   { title: "AI Integration Practice", note: "Gemini & OpenRouter powered products", tone: "cyan" },
+  {
+    title: "Bano Qabil HPT Selection",
+    note: "Selected as one of the top 10 students across the Mobile App Development cohort for the exclusive HPT program.",
+    tone: "gold",
+  },
+  {
+    title: "CS Project Certificate",
+    note: "Certified for a CS project on the working of an ATM Machine.",
+    tone: "electric",
+  },
+  {
+    title: "100% Attendance Certificate",
+    note: "Awarded for achieving perfect attendance throughout the academic program.",
+    tone: "jade",
+  },
+  {
+    title: "RateBridge — Final Year Project",
+    note: "Delivered a full-stack Flutter construction marketplace and price comparison platform with Gemini AI as my University Final Year Project.",
+    tone: "cyan",
+  },
+  {
+    title: "WordPress Internship",
+    note: "Completed a frontend internship building multiple WordPress websites and gaining practical experience in frontend and web development.",
+    tone: "magenta",
+  },
+  {
+    title: "Flutter Mobile App Development",
+    note: "Successfully completed the Flutter Mobile Application Development course at Bano Qabil — selected for the exclusive High Performance Track (Top 10).",
+    tone: "electric",
+  },
+  {
+    title: "NSCT — National Skills Competences Test",
+    note: "Passed the National Skills Competences Test (NSCT), demonstrating verified technical competence in mobile development skills.",
+    tone: "gold",
+  },
 ];
 
 export function Journey() {
