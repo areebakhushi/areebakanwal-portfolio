@@ -183,7 +183,7 @@ export function Journey() {
             <Reveal delay={0.08}>
               <div>
                 <span className="mono-label" style={{ color: "var(--tone-gold)" }}>
-                  📜 NexCraftStudio
+                  NexCraftStudio
                 </span>
                 <h3 className="display mt-3 text-2xl sm:text-3xl">Internship Completion Certificate</h3>
                 <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
@@ -199,7 +199,7 @@ export function Journey() {
                   className="glass mt-4 inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-xs font-semibold transition-colors hover:text-foreground"
                   style={{ color: "var(--tone-cyan)" }}
                 >
-                  🔗 nexcraftstudio.com/certificate-verification
+                  Verify: nexcraftstudio.com/certificate-verification
                 </a>
               </div>
             </Reveal>
