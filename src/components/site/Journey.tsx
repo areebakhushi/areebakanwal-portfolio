@@ -1,5 +1,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
+import certificate from "@/assets/nexcraft-certificate.jpg.asset.json";
 import { Reveal, SplitText } from "./motion-kit";
 
 type Entry = {
@@ -156,6 +157,52 @@ export function Journey() {
                 </motion.div>
               </Reveal>
             ))}
+          </div>
+        </div>
+
+        <div className="mt-24">
+          <Reveal>
+            <p className="mono-label">06 — Certificates</p>
+          </Reveal>
+          <div className="mt-8 grid items-center gap-8 lg:grid-cols-[1.15fr_0.85fr]">
+            <Reveal>
+              <motion.figure
+                whileHover={{ y: -6 }}
+                transition={{ duration: 0.35 }}
+                data-cursor
+                className="glass overflow-hidden rounded-3xl p-2.5"
+              >
+                <img
+                  src={certificate.url}
+                  alt="Internship Completion Certificate awarded to Areeba by NexCraftStudio for Website Development"
+                  loading="lazy"
+                  className="w-full rounded-2xl"
+                />
+              </motion.figure>
+            </Reveal>
+            <Reveal delay={0.08}>
+              <div>
+                <span className="mono-label" style={{ color: "var(--tone-gold)" }}>
+                  📜 NexCraftStudio
+                </span>
+                <h3 className="display mt-3 text-2xl sm:text-3xl">Internship Completion Certificate</h3>
+                <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+                  Awarded by NexCraftStudio for successfully completing the internship in Website
+                  Development.
+                </p>
+                <p className="mono-label mt-5">ID: WG2506</p>
+                <a
+                  href="https://nexcraftstudio.com/certificate-verification"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  data-cursor
+                  className="glass mt-4 inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-xs font-semibold transition-colors hover:text-foreground"
+                  style={{ color: "var(--tone-cyan)" }}
+                >
+                  🔗 nexcraftstudio.com/certificate-verification
+                </a>
+              </div>
+            </Reveal>
           </div>
         </div>
       </div>
