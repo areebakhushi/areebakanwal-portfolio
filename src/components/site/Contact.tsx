@@ -40,8 +40,9 @@ export function Contact() {
         />
         <Reveal delay={0.15}>
           <p className="mx-auto mt-6 max-w-xl leading-relaxed text-muted-foreground">
-            Open to Flutter roles, internships and freelance app work. If you have an idea that needs shipping,
-            I&apos;d love to hear about it.
+            I&apos;m currently looking for Flutter Developer, Mobile App Developer, internship, junior developer and
+            software development opportunities where I can continue improving my skills and gain professional
+            experience. If you have a role or an idea that needs shipping, I&apos;d love to hear about it.
           </p>
         </Reveal>
 
