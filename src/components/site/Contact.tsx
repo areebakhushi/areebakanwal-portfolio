@@ -31,7 +31,7 @@ export function Contact() {
 
       <div className="relative z-10 mx-auto max-w-4xl px-5 text-center sm:px-8">
         <Reveal>
-          <p className="mono-label">06 — Contact</p>
+          <p className="mono-label">07 — Contact</p>
         </Reveal>
         <SplitText
           as="h2"
