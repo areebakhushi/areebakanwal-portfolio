@@ -20,7 +20,7 @@ export function Freelancing() {
           </Reveal>
           <SplitText
             as="h2"
-            text="My First International Client 🇺🇸"
+            text="My First International Client — United States"
             className="display mt-5 text-[clamp(2.2rem,5.5vw,4rem)]"
           />
           <Reveal delay={0.1}>
