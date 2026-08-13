@@ -53,7 +53,7 @@ export function Freelancing() {
           ))}
         </div>
 
-        <div className="mt-12 grid gap-5 sm:grid-cols-2">
+        <div className="mt-12">
           <Reveal delay={0.15}>
             <motion.figure
               whileHover={{ y: -4 }}
@@ -62,31 +62,13 @@ export function Freelancing() {
               data-cursor
             >
               <img
-                src={clientReview.url}
-                alt="Fiverr client review from themaidensreven in the United States, 5 stars"
+                src={clientProof.url}
+                alt="Fiverr order proof and client review for my first international client project"
                 loading="lazy"
                 className="w-full rounded-xl"
               />
               <figcaption className="mono-label mt-3 px-1 text-center text-[11px]">
-                Client Review
-              </figcaption>
-            </motion.figure>
-          </Reveal>
-          <Reveal delay={0.2}>
-            <motion.figure
-              whileHover={{ y: -4 }}
-              transition={{ duration: 0.3 }}
-              className="glass overflow-hidden rounded-2xl p-2.5 shadow-sm"
-              data-cursor
-            >
-              <img
-                src={orderProof.url}
-                alt="Fiverr order proof showing $100 completed order for custom digital birthday website"
-                loading="lazy"
-                className="w-full rounded-xl"
-              />
-              <figcaption className="mono-label mt-3 px-1 text-center text-[11px]">
-                Order Proof
+                Order Proof & Client Review
               </figcaption>
             </motion.figure>
           </Reveal>
