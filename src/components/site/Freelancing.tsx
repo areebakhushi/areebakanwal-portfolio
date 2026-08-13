@@ -4,7 +4,7 @@ import orderProof from "@/assets/fiverr-order-proof.png.asset.json";
 import { Reveal, SplitText } from "./motion-kit";
 
 const HIGHLIGHTS = [
-  { icon: "🇺🇸", label: "First International Client", note: "United States" },
+  { icon: "🌐", label: "First International Client", note: "United States" },
   { icon: "💻", label: "Custom Website Development", note: "Birthday / Anniversary" },
   { icon: "⚡", label: "1-Day Delivery", note: "Completed in 24 hours" },
   { icon: "⭐", label: "5-Star Client Review", note: "Positive feedback" },
