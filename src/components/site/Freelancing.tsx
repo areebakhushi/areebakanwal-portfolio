@@ -46,7 +46,7 @@ export function Freelancing() {
                 className="glass h-full rounded-2xl p-5"
                 data-cursor
               >
-                <span className="text-2xl">{h.icon}</span>
+                <span className="text-2xl" style={{ fontFamily: '"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif' }}>{h.icon}</span>
                 <h3 className="mt-3 text-sm font-semibold">{h.label}</h3>
                 <p className="mt-1 text-xs text-muted-foreground">{h.note}</p>
               </motion.div>
