@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
-import clientReview from "@/assets/fiverr-client-review.png.asset.json";
-import orderProof from "@/assets/fiverr-order-proof.png.asset.json";
+import clientProof from "@/assets/fiverr-client-proof.png.asset.json";
 import { Reveal, SplitText } from "./motion-kit";
 
 const HIGHLIGHTS = [
