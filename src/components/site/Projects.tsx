@@ -150,6 +150,29 @@ function ProjectBlock({ project, i }: { project: Project; i: number }) {
       break;
 
 
+    case "story":
+      body = (
+        <div className="grid items-start gap-12 lg:grid-cols-2">
+          {media("")}
+          <div>
+            <Reveal>
+              <Meta project={project} />
+            </Reveal>
+            {project.media.length > 1 ? (
+              <div className="mt-8 grid gap-4 sm:grid-cols-2">
+                {project.media.slice(1).map((m, mi) => (
+                  <Reveal key={m.src} delay={Math.min(mi, 4) * 0.06}>
+                    <MediaShowcase media={m} tone={project.tone} />
+                  </Reveal>
+                ))}
+              </div>
+            ) : null}
+          </div>
+        </div>
+      );
+      break;
+
+
     case "minimal":
       body = (
         <div className="glass overflow-hidden rounded-[2.5rem]">
