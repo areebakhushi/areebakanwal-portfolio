@@ -266,7 +266,7 @@ export const projects: Project[] = [
     tech: ["HTML5", "CSS3", "JavaScript", "Web Animations"],
     role: "Concept, copywriting, design and front-end build",
     tone: "magenta",
-    layout: "gallery",
+    layout: "story",
     media: [
       { kind: "video", src: littleVideo.url, poster: littlePoster.url, portrait: true, caption: "The gift reveal" },
     ],
@@ -290,7 +290,7 @@ export const projects: Project[] = [
     tech: ["HTML5", "CSS3", "JavaScript", "Web Animations"],
     role: "Concept, design and front-end build",
     tone: "magenta",
-    layout: "gallery",
+    layout: "story",
     media: [
       { kind: "video", src: countdownVideo2.url, poster: countdownPoster2.url, portrait: true, caption: "Countdown to her day" },
     ],
@@ -314,7 +314,7 @@ export const projects: Project[] = [
     tech: ["HTML5", "CSS3", "JavaScript", "Web Animations"],
     role: "Concept, copywriting, design and front-end build",
     tone: "magenta",
-    layout: "gallery",
+    layout: "story",
     media: [
       { kind: "video", src: iqraVideo.url, poster: iqraPoster.url, portrait: true, caption: "Scrollytelling story" },
     ],
