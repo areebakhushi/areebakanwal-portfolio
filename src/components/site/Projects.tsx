@@ -153,11 +153,11 @@ function ProjectBlock({ project, i }: { project: Project; i: number }) {
     case "story":
       body = (
         <div className="grid items-start gap-12 lg:grid-cols-2">
-          {media("")}
+          <Reveal>
+            <Meta project={project} />
+          </Reveal>
           <div>
-            <Reveal>
-              <Meta project={project} />
-            </Reveal>
+            {media("")}
             {project.media.length > 1 ? (
               <div className="mt-8 grid gap-4 sm:grid-cols-2">
                 {project.media.slice(1).map((m, mi) => (
@@ -171,6 +171,7 @@ function ProjectBlock({ project, i }: { project: Project; i: number }) {
         </div>
       );
       break;
+
 
 
     case "minimal":

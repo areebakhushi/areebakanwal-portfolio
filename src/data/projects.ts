@@ -30,8 +30,8 @@ import zk2 from "@/assets/zikar-183524.png.asset.json";
 import zk3 from "@/assets/zikar-183546.png.asset.json";
 import zk4 from "@/assets/zikar-183609.png.asset.json";
 import wordpressImg from "@/assets/wordpress-nexcraft.jpg.asset.json";
-import storyVideo from "@/assets/storybook.mp4.asset.json";
-import storyPoster from "@/assets/storybook.jpg.asset.json";
+import storyVideo from "@/assets/storybook-demo.mp4.asset.json";
+import storyPoster from "@/assets/storybook-demo.jpg.asset.json";
 import story1 from "@/assets/storybook-1.png.asset.json";
 import story2 from "@/assets/storybook-2.png.asset.json";
 import story3 from "@/assets/storybook-3.png.asset.json";
@@ -384,7 +384,7 @@ export const projects: Project[] = [
     tone: "magenta",
     layout: "story",
     media: [
-      { kind: "video", src: storyVideo.url, poster: storyPoster.url, caption: "Live demo" },
+      { kind: "video", src: storyVideo.url, poster: storyPoster.url, portrait: true, caption: "Live demo" },
       { kind: "image", src: story1.url, caption: "Cover story" },
       { kind: "image", src: story2.url, caption: "Polaroid collage" },
       { kind: "image", src: story3.url, caption: "Our story chapter" },

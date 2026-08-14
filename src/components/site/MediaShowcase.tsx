@@ -38,7 +38,9 @@ export function MediaShowcase({
 
   return (
     <div ref={ref} className={className} data-cursor={media.kind === "video" ? "Playing" : undefined}>
-      <div className="relative">
+      <div
+        className={`relative mx-auto w-full ${isPortrait ? "max-w-[240px]" : "max-w-[460px]"}`}
+      >
         <div
           className="pointer-events-none absolute -inset-8 rounded-[3rem] opacity-60 blur-3xl"
           style={{ background: `radial-gradient(closest-side, ${glow}, transparent 75%)` }}
