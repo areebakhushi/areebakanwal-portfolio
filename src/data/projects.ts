@@ -30,6 +30,11 @@ import zk2 from "@/assets/zikar-183524.png.asset.json";
 import zk3 from "@/assets/zikar-183546.png.asset.json";
 import zk4 from "@/assets/zikar-183609.png.asset.json";
 import wordpressImg from "@/assets/wordpress-nexcraft.jpg.asset.json";
+import storyVideo from "@/assets/storybook.mp4.asset.json";
+import storyPoster from "@/assets/storybook.jpg.asset.json";
+import story1 from "@/assets/storybook-1.png.asset.json";
+import story2 from "@/assets/storybook-2.png.asset.json";
+import story3 from "@/assets/storybook-3.png.asset.json";
 
 
 export type Tone = "cyan" | "electric" | "magenta" | "gold" | "jade";
@@ -41,7 +46,8 @@ export type Layout =
   | "centered"
   | "gallery"
   | "minimal"
-  | "browser";
+  | "browser"
+  | "story";
 
 export type Media = {
   kind: "video" | "image";
@@ -356,5 +362,32 @@ export const projects: Project[] = [
     tone: "cyan",
     layout: "browser",
     media: [{ kind: "image", src: wordpressImg.url }],
+  },
+  {
+    id: "friendship-storybook",
+    index: "13",
+    title: "10 Years of Best Friendship",
+    kicker: "Specially designed friendship storybook website",
+    tagline: "A decade of friendship, published as a magazine you scroll.",
+    description:
+      "A specially designed storybook website made for one friend only — a pink editorial magazine issue titled \u201cFor Iqra\u201d with 13 chapters, from the first meeting to a friendship proposal. Every chapter, photo and line of copy was written for her, never a template.",
+    features: [
+      "13-chapter magazine navigation",
+      "Editorial cover story with polaroid collage",
+      "Tap-to-open gift entry screen",
+      "Scroll-driven chapters and memory timeline",
+      "Soft pink serif type system",
+      "Fully responsive, mobile-first",
+    ],
+    tech: ["HTML5", "CSS3", "JavaScript", "Web Animations"],
+    role: "Concept, copywriting, design and front-end build",
+    tone: "magenta",
+    layout: "story",
+    media: [
+      { kind: "video", src: storyVideo.url, poster: storyPoster.url, caption: "Live demo" },
+      { kind: "image", src: story1.url, caption: "Cover story" },
+      { kind: "image", src: story2.url, caption: "Polaroid collage" },
+      { kind: "image", src: story3.url, caption: "Our story chapter" },
+    ],
   },
 ];
