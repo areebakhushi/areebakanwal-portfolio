@@ -35,6 +35,13 @@ import storyPoster from "@/assets/storybook-demo.jpg.asset.json";
 import story1 from "@/assets/storybook-1.png.asset.json";
 import story2 from "@/assets/storybook-2.png.asset.json";
 import story3 from "@/assets/storybook-3.png.asset.json";
+import ft1 from "@/assets/fittrack-115510.png.asset.json";
+import ft2 from "@/assets/fittrack-115556.png.asset.json";
+import ft3 from "@/assets/fittrack-115612.png.asset.json";
+import ft4 from "@/assets/fittrack-115647.png.asset.json";
+import ft5 from "@/assets/fittrack-115714.png.asset.json";
+import ft6 from "@/assets/fittrack-115734.png.asset.json";
+import ft7 from "@/assets/fittrack-115801.png.asset.json";
 
 
 export type Tone = "cyan" | "electric" | "magenta" | "gold" | "jade";
@@ -170,8 +177,17 @@ export const projects: Project[] = [
     tech: ["Flutter", "Firebase", "Provider", "OpenRouter AI", "fl_chart"],
     role: "Concept, UI/UX, Flutter development, AI prompt design",
     tone: "jade",
-    layout: "centered",
-    media: [{ kind: "video", src: workoutVideo.url, poster: workoutPoster.url }],
+    layout: "story",
+    media: [
+      { kind: "video", src: workoutVideo.url, poster: workoutPoster.url },
+      { kind: "image", src: ft1.url, portrait: true, caption: "Login" },
+      { kind: "image", src: ft2.url, portrait: true, caption: "Dashboard & protocols" },
+      { kind: "image", src: ft3.url, portrait: true, caption: "Active set tracking" },
+      { kind: "image", src: ft4.url, portrait: true, caption: "Exercise cloud" },
+      { kind: "image", src: ft5.url, portrait: true, caption: "AI plan architect" },
+      { kind: "image", src: ft6.url, portrait: true, caption: "Biological profile" },
+      { kind: "image", src: ft7.url, portrait: true, caption: "Routine builder" },
+    ],
     badge: "Evolved from WorkoutPlanner",
   },
   {
