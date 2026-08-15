@@ -152,25 +152,33 @@ function ProjectBlock({ project, i }: { project: Project; i: number }) {
 
     case "story":
       body = (
-        <div className="grid items-start gap-12 lg:grid-cols-2">
-          <Reveal>
-            <Meta project={project} />
-          </Reveal>
-          <div>
-            {media("")}
-            {project.media.length > 1 ? (
-              <div className="mt-8 grid gap-4 sm:grid-cols-2">
+        <div>
+          <div className="grid items-start gap-12 lg:grid-cols-2">
+            <Reveal>
+              <Meta project={project} />
+            </Reveal>
+            <div>{media("")}</div>
+          </div>
+          {project.media.length > 1 ? (
+            <div className="relative mt-12 -mx-5 sm:-mx-8">
+              <div className="flex snap-x snap-mandatory gap-6 overflow-x-auto px-5 pb-5 sm:px-8 [scrollbar-width:thin]">
                 {project.media.slice(1).map((m, mi) => (
-                  <Reveal key={m.src} delay={Math.min(mi, 4) * 0.06}>
+                  <Reveal
+                    key={m.src}
+                    delay={Math.min(mi, 4) * 0.06}
+                    className={`shrink-0 snap-start ${m.portrait ? "w-[210px] sm:w-[250px]" : "w-[320px] sm:w-[460px]"}`}
+                  >
                     <MediaShowcase media={m} tone={project.tone} />
                   </Reveal>
                 ))}
               </div>
-            ) : null}
-          </div>
+              <p className="mono-label mt-2 px-5 sm:px-8">Scroll →</p>
+            </div>
+          ) : null}
         </div>
       );
       break;
+
 
 
 
