@@ -35,6 +35,13 @@ import storyPoster from "@/assets/storybook-demo.jpg.asset.json";
 import story1 from "@/assets/storybook-1.png.asset.json";
 import story2 from "@/assets/storybook-2.png.asset.json";
 import story3 from "@/assets/storybook-3.png.asset.json";
+import ft1 from "@/assets/fittrack-115510.png.asset.json";
+import ft2 from "@/assets/fittrack-115556.png.asset.json";
+import ft3 from "@/assets/fittrack-115612.png.asset.json";
+import ft4 from "@/assets/fittrack-115647.png.asset.json";
+import ft5 from "@/assets/fittrack-115714.png.asset.json";
+import ft6 from "@/assets/fittrack-115734.png.asset.json";
+import ft7 from "@/assets/fittrack-115801.png.asset.json";
 
 
 export type Tone = "cyan" | "electric" | "magenta" | "gold" | "jade";
