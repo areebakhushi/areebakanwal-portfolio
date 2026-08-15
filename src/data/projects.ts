@@ -14,6 +14,12 @@ import iqraVideo from "@/assets/birthday-iqra.mp4.asset.json";
 import iqraPoster from "@/assets/birthday-iqra.jpg.asset.json";
 import weddingVideo from "@/assets/wedding.mp4.asset.json";
 import weddingPoster from "@/assets/wedding.jpg.asset.json";
+import wd1 from "@/assets/wedding-1.jpg.asset.json";
+import wd2 from "@/assets/wedding-2.jpg.asset.json";
+import wd3 from "@/assets/wedding-3.jpg.asset.json";
+import wd4 from "@/assets/wedding-4.jpg.asset.json";
+import wd5 from "@/assets/wedding-5.jpg.asset.json";
+import wd6 from "@/assets/wedding-6.jpg.asset.json";
 import rb1 from "@/assets/ratebridge-1.png.asset.json";
 import rb2 from "@/assets/ratebridge-2.png.asset.json";
 import rb3 from "@/assets/ratebridge-3.png.asset.json";
@@ -355,8 +361,16 @@ export const projects: Project[] = [
     tech: ["HTML5", "CSS3", "JavaScript", "Web Animations"],
     role: "Design and front-end development",
     tone: "magenta",
-    layout: "centered",
-    media: [{ kind: "video", src: weddingVideo.url, poster: weddingPoster.url, portrait: true }],
+    layout: "story",
+    media: [
+      { kind: "video", src: weddingVideo.url, poster: weddingPoster.url, portrait: true },
+      { kind: "image", src: wd1.url, portrait: true, caption: "Hero — Sarah & Ahmed" },
+      { kind: "image", src: wd2.url, portrait: true, caption: "Our love story" },
+      { kind: "image", src: wd3.url, portrait: true, caption: "Story chapters" },
+      { kind: "image", src: wd4.url, portrait: true, caption: "Travel & venue map" },
+      { kind: "image", src: wd5.url, portrait: true, caption: "RSVP form" },
+      { kind: "image", src: wd6.url, portrait: true, caption: "Eternally yours" },
+    ],
   },
   {
     id: "wordpress",
