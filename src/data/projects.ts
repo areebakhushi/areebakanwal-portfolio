@@ -355,8 +355,16 @@ export const projects: Project[] = [
     tech: ["HTML5", "CSS3", "JavaScript", "Web Animations"],
     role: "Design and front-end development",
     tone: "magenta",
-    layout: "centered",
-    media: [{ kind: "video", src: weddingVideo.url, poster: weddingPoster.url, portrait: true }],
+    layout: "story",
+    media: [
+      { kind: "video", src: weddingVideo.url, poster: weddingPoster.url, portrait: true },
+      { kind: "image", src: wd1.url, portrait: true, caption: "Hero — Sarah & Ahmed" },
+      { kind: "image", src: wd2.url, portrait: true, caption: "Our love story" },
+      { kind: "image", src: wd3.url, portrait: true, caption: "Story chapters" },
+      { kind: "image", src: wd4.url, portrait: true, caption: "Travel & venue map" },
+      { kind: "image", src: wd5.url, portrait: true, caption: "RSVP form" },
+      { kind: "image", src: wd6.url, portrait: true, caption: "Eternally yours" },
+    ],
   },
   {
     id: "wordpress",
