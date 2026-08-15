@@ -2,6 +2,14 @@ import bqVideo from "@/assets/bqspark.mp4.asset.json";
 import bqPoster from "@/assets/bqspark.jpg.asset.json";
 import travelVideo from "@/assets/travelsync.mp4.asset.json";
 import travelPoster from "@/assets/travelsync.jpg.asset.json";
+import ts1 from "@/assets/travelsync-1.jpg.asset.json";
+import ts2 from "@/assets/travelsync-2.jpg.asset.json";
+import ts3 from "@/assets/travelsync-3.jpg.asset.json";
+import ts4 from "@/assets/travelsync-4.jpg.asset.json";
+import ts5 from "@/assets/travelsync-5.jpg.asset.json";
+import ts6 from "@/assets/travelsync-6.jpg.asset.json";
+import ts7 from "@/assets/travelsync-7.jpg.asset.json";
+import ts8 from "@/assets/travelsync-8.jpg.asset.json";
 import workoutVideo from "@/assets/workout.mp4.asset.json";
 import workoutPoster from "@/assets/workout.jpg.asset.json";
 import spendVideo from "@/assets/spendwise.mp4.asset.json";
@@ -161,8 +169,18 @@ export const projects: Project[] = [
     tech: ["Flutter", "Firebase Auth", "Firestore", "Weather API", "REST APIs"],
     role: "Design & full app development",
     tone: "cyan",
-    layout: "asymmetric",
-    media: [{ kind: "video", src: travelVideo.url, poster: travelPoster.url }],
+    layout: "story",
+    media: [
+      { kind: "video", src: travelVideo.url, poster: travelPoster.url },
+      { kind: "image", src: ts1.url, portrait: true, caption: "Sign in" },
+      { kind: "image", src: ts2.url, portrait: true, caption: "My expeditions" },
+      { kind: "image", src: ts3.url, portrait: true, caption: "Create a trip" },
+      { kind: "image", src: ts4.url, portrait: true, caption: "Trip detail with live weather" },
+      { kind: "image", src: ts5.url, portrait: true, caption: "Trip group chat" },
+      { kind: "image", src: ts6.url, portrait: true, caption: "Travel network — friends" },
+      { kind: "image", src: ts7.url, portrait: true, caption: "Find travel companions" },
+      { kind: "image", src: ts8.url, portrait: true, caption: "Profile & account" },
+    ],
   },
   {
     id: "fittrack",
