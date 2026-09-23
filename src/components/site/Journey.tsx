@@ -14,6 +14,20 @@ type Entry = {
 
 const TIMELINE: Entry[] = [
   {
+    period: "Current",
+    title: "Mobile Application Development Intern",
+    place: "Softlinks Software House — Islamabad, Pakistan",
+    tone: "magenta",
+    kind: "experience",
+    points: [
+      "Developing cross-platform mobile apps with Flutter and Dart",
+      "Working with native Android using Kotlin and Java",
+      "Integrating Firebase services and REST APIs",
+      "Building responsive, user-friendly mobile interfaces",
+      "Debugging, testing and improving app performance in a professional software-house environment",
+    ],
+  },
+  {
     period: "Completed",
     title: "BS Information Technology",
     place: "University of the Punjab",
