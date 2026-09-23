@@ -62,13 +62,14 @@ export function About() {
             </Reveal>
             <Reveal delay={0.12}>
               <p className="leading-relaxed text-muted-foreground">
-                I have practical experience through my courses, academic projects, internship experience and
-                independent development — selected for Bano Qabil&apos;s High Performance Track and ranked in the top
-                10 of the Mobile Development cohort. I built{" "}
-                <span className="text-foreground">RateBridge</span>, an AI construction price platform, as my Final
-                Year Project. I&apos;m currently focused on improving my technical skills and looking for
-                Flutter/mobile development jobs, internships, junior developer roles and other professional software
-                development opportunities.
+                I have practical experience through my courses, academic projects, internships and independent
+                development — selected for Bano Qabil&apos;s High Performance Track and ranked in the top 10 of the
+                Mobile Development cohort. I&apos;m currently working as a{" "}
+                <span className="text-foreground">Mobile Application Development Intern at Softlinks Software House,
+                Islamabad</span>, building real-world Flutter apps with Dart, Kotlin, Java, Firebase and REST APIs. I
+                built <span className="text-foreground">RateBridge</span>, an AI construction price platform, as my
+                Final Year Project, and I&apos;m looking for Flutter/mobile development jobs, junior developer roles
+                and other professional software development opportunities.
               </p>
             </Reveal>
 
