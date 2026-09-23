@@ -28,14 +28,16 @@ import wd3 from "@/assets/wedding-3.jpg.asset.json";
 import wd4 from "@/assets/wedding-4.jpg.asset.json";
 import wd5 from "@/assets/wedding-5.jpg.asset.json";
 import wd6 from "@/assets/wedding-6.jpg.asset.json";
-import rb1 from "@/assets/ratebridge-1.png.asset.json";
-import rb2 from "@/assets/ratebridge-2.png.asset.json";
-import rb3 from "@/assets/ratebridge-3.png.asset.json";
-import rb4 from "@/assets/ratebridge-4.png.asset.json";
-import rb5 from "@/assets/ratebridge-5.png.asset.json";
-import rb6 from "@/assets/ratebridge-6.png.asset.json";
-import rb7 from "@/assets/ratebridge-7.png.asset.json";
-import rb8 from "@/assets/ratebridge-8.png.asset.json";
+import rb1 from "@/assets/rb-new-1.jpg.asset.json";
+import rb2 from "@/assets/rb-new-2.jpg.asset.json";
+import rb3 from "@/assets/rb-new-3.jpg.asset.json";
+import rb4 from "@/assets/rb-new-4.jpg.asset.json";
+import rb5 from "@/assets/rb-new-5.jpg.asset.json";
+import rb6 from "@/assets/rb-new-6.jpg.asset.json";
+import rb7 from "@/assets/rb-new-7.jpg.asset.json";
+import rb8 from "@/assets/rb-new-8.jpg.asset.json";
+import rb9 from "@/assets/rb-new-9.jpg.asset.json";
+import rb10 from "@/assets/rb-new-10.jpg.asset.json";
 import cc1 from "@/assets/codechat-1.png.asset.json";
 import cc2 from "@/assets/codechat-2.png.asset.json";
 
@@ -123,31 +125,56 @@ export const projects: Project[] = [
     id: "ratebridge",
     index: "02",
     title: "RateBridge",
-    kicker: "AI Construction Price Platform · Final Year Project",
+    kicker: "Multi-Tenant B2B Construction Marketplace · Final Year Project",
     tagline: "Pricing intelligence for the construction supply chain.",
     description:
-      "A B2B platform where suppliers publish construction material prices and buyers compare them with confidence. Gemini AI watches the price history and flags anomalies before a bad purchase happens.",
+      "A Flutter-based multi-tenant B2B construction-material marketplace and price comparison platform connecting companies, suppliers, and field users with RFQs, orders, payments, chat, AI-powered features, and real-time Firebase infrastructure — with a companion web-based Admin Panel and English, Urdu & Roman Urdu localization for the Pakistani market.",
     features: [
-      "Supplier listings, ratings and quality scores",
-      "Side-by-side material price comparison",
-      "Historical price trends",
-      "Gemini AI anomaly detection & smart warnings",
-      "Supplier and order management",
-      "CEO-controlled subscription tiers",
+      "Multi-tenant architecture — companies, suppliers & field users with role-based access",
+      "Material price comparison across categories: cement, steel, bricks, sand, tiles & more",
+      "RFQ system — companies request quotations, suppliers respond with quotes",
+      "Orders, payments & a 2% commission model — Stripe Test Mode, COD, Easypaisa, JazzCash, bank transfer with payment-proof verification",
+      "In-app chat & Cloudinary-powered media sharing",
+      "AI features — OCR document extraction, Gemini 1.5 Flash & Groq / Llama 3.3",
+      "KYC verification workflows with OCR + AI",
+      "Real-time notifications with Firebase Cloud Messaging",
+      "Subscription plans — Free, Basic & Premium tiers",
+      "Web-based Admin Panel — analytics, payment queue, audit logs & platform monitoring",
+      "Localization — English, Urdu & Roman Urdu",
     ],
-    tech: ["Flutter", "Firebase", "Firestore", "Gemini AI"],
+    tech: [
+      "Flutter",
+      "Dart",
+      "Firebase Auth",
+      "Cloud Firestore",
+      "Cloud Functions",
+      "FCM",
+      "Firebase Storage",
+      "Dynamic Links",
+      "Provider",
+      "MVVM",
+      "go_router",
+      "REST APIs",
+      "Cloudinary",
+      "Gemini 1.5 Flash",
+      "Groq / Llama 3.3",
+      "OCR",
+      "Stripe",
+    ],
     role: "Final Year Project — product design, Flutter app, AI integration",
     tone: "gold",
     layout: "gallery",
     media: [
-      { kind: "image", src: rb1.url, portrait: true, caption: "Supplier login" },
-      { kind: "image", src: rb2.url, portrait: true, caption: "Supplier sign-up" },
-      { kind: "image", src: rb3.url, portrait: true, caption: "Account verification" },
-      { kind: "image", src: rb4.url, portrait: true, caption: "Supplier dashboard" },
-      { kind: "image", src: rb5.url, portrait: true, caption: "Add new material" },
-      { kind: "image", src: rb7.url, portrait: true, caption: "Edit material & pricing" },
-      { kind: "image", src: rb6.url, portrait: true, caption: "Buyer feedback & ratings" },
-      { kind: "image", src: rb8.url, portrait: true, caption: "Supplier profile" },
+      { kind: "image", src: rb1.url, portrait: true, caption: "Welcome & sign in" },
+      { kind: "image", src: rb2.url, portrait: true, caption: "Admin dashboard — platform overview" },
+      { kind: "image", src: rb3.url, portrait: true, caption: "Admin payment queue & verification" },
+      { kind: "image", src: rb4.url, portrait: true, caption: "Admin commission ledger" },
+      { kind: "image", src: rb5.url, portrait: true, caption: "CEO dashboard & company invite code" },
+      { kind: "image", src: rb6.url, portrait: true, caption: "Supplier hub & marketplace" },
+      { kind: "image", src: rb7.url, portrait: true, caption: "Company orders & tracking" },
+      { kind: "image", src: rb8.url, portrait: true, caption: "Supplier earnings & performance" },
+      { kind: "image", src: rb9.url, portrait: true, caption: "In-app business chat" },
+      { kind: "image", src: rb10.url, portrait: true, caption: "Earnings & commissions" },
     ],
     badge: "Final Year Project",
   },
