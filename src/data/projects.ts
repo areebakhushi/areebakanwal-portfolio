@@ -128,9 +128,7 @@ export const projects: Project[] = [
     kicker: "Multi-Tenant B2B Construction Marketplace · Final Year Project",
     tagline: "Pricing intelligence for the construction supply chain.",
     description:
-      "A Flutter-based multi-tenant B2B construction-material marketplace and price comparison platform connecting companies, suppliers, and field users with RFQs, orders, payments, chat, AI-powered features, and real-time Firebase infrastructure.",
-    longDescription:
-      "RateBridge is a multi-tenant B2B construction-material marketplace and price comparison application designed for the construction industry in Pakistan. It connects construction companies (CEOs), suppliers, and field users in one system — compare material prices, manage suppliers, create RFQs, chat, manage orders, handle payments, and monitor everything through role-based dashboards. Built around real-world construction business workflows, it ships with a cross-platform mobile app plus a dedicated web-based Admin Panel (analytics, CEO & supplier management, orders, payment queue, notifications, audit logs). Localization in English, Urdu, and Roman Urdu makes it a natural fit for the Pakistani market.",
+      "A Flutter-based multi-tenant B2B construction-material marketplace and price comparison platform connecting companies, suppliers, and field users with RFQs, orders, payments, chat, AI-powered features, and real-time Firebase infrastructure — with a companion web-based Admin Panel and English, Urdu & Roman Urdu localization for the Pakistani market.",
     features: [
       "Multi-tenant architecture — companies, suppliers & field users with role-based access",
       "Material price comparison across categories: cement, steel, bricks, sand, tiles & more",
