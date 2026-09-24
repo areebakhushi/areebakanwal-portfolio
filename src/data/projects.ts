@@ -70,6 +70,14 @@ import js9 from "@/assets/js-9.jpg.asset.json";
 import js10 from "@/assets/js-10.jpg.asset.json";
 import js11 from "@/assets/js-11.jpg.asset.json";
 import js12 from "@/assets/js-12.jpg.asset.json";
+import mb1 from "@/assets/mybank-1.jpg.asset.json";
+import mb2 from "@/assets/mybank-2.jpg.asset.json";
+import mb3 from "@/assets/mybank-3.jpg.asset.json";
+import mb4 from "@/assets/mybank-4.jpg.asset.json";
+import mb5 from "@/assets/mybank-5.jpg.asset.json";
+import mb6 from "@/assets/mybank-6.jpg.asset.json";
+import mb7 from "@/assets/mybank-7.jpg.asset.json";
+import mb8 from "@/assets/mybank-8.jpg.asset.json";
 
 
 
@@ -527,6 +535,50 @@ export const projects: Project[] = [
       { kind: "image", src: js10.url, portrait: true, caption: "Manage posted jobs" },
       { kind: "image", src: js11.url, portrait: true, caption: "Applicant details — CV & hiring actions" },
       { kind: "image", src: js12.url, portrait: true, caption: "Company profile" },
+    ],
+    badge: "Android Application",
+  },
+  {
+    id: "mybank",
+    index: "15",
+    title: "MyBank",
+    kicker: "Banking & Account Management App · Java • Android • XML • OOP",
+    tagline: "Core banking operations, built the object-oriented way.",
+    description:
+      "A modern Android banking application built with Java and XML, featuring account management, deposits, withdrawals, transaction history, and practical implementation of core OOP concepts. Users can create an account, check their balance, deposit and withdraw money, review every transaction, manage their profile and log out securely — with the banking logic structured around a well-designed class hierarchy.",
+    features: [
+      "Account creation & secure login",
+      "Bank dashboard with live balance card & quick actions",
+      "Deposit & withdrawal with quick amount selection",
+      "Full transaction history with deposit/withdrawal filters",
+      "Account details — number, balance, interest rate & active status",
+      "Savings & Current account types via inheritance",
+      "Profile management & secure logout",
+      "OOP in practice — encapsulation, inheritance, abstraction, interfaces, polymorphism, method overriding & overloading, enums and composition",
+      "Banking class model — User, BankAccount, SavingsAccount, CurrentAccount, Transaction, TransactionType & TransactionOperations",
+      "Material Design UI with RecyclerView lists and View Binding",
+    ],
+    tech: [
+      "Java",
+      "Android Studio",
+      "XML",
+      "RecyclerView",
+      "View Binding",
+      "Material Design",
+      "OOP",
+    ],
+    role: "Design & full Android development — Java, XML UI, OOP architecture",
+    tone: "electric",
+    layout: "story",
+    media: [
+      { kind: "image", src: mb2.url, portrait: true, caption: "Dashboard — balance card & quick actions" },
+      { kind: "image", src: mb4.url, portrait: true, caption: "Login with email & password" },
+      { kind: "image", src: mb1.url, portrait: true, caption: "Create your account" },
+      { kind: "image", src: mb8.url, portrait: true, caption: "Account details — number, balance & status" },
+      { kind: "image", src: mb5.url, portrait: true, caption: "Deposit money with quick amounts" },
+      { kind: "image", src: mb7.url, portrait: true, caption: "Withdraw money" },
+      { kind: "image", src: mb3.url, portrait: true, caption: "Transaction history with filters" },
+      { kind: "image", src: mb6.url, portrait: true, caption: "Profile — details, security & logout" },
     ],
     badge: "Android Application",
   },
