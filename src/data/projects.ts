@@ -58,6 +58,19 @@ import ft4 from "@/assets/fittrack-115647.png.asset.json";
 import ft5 from "@/assets/fittrack-115714.png.asset.json";
 import ft6 from "@/assets/fittrack-115734.png.asset.json";
 import ft7 from "@/assets/fittrack-115801.png.asset.json";
+import js1 from "@/assets/js-1.jpg.asset.json";
+import js2 from "@/assets/js-2.jpg.asset.json";
+import js3 from "@/assets/js-3.jpg.asset.json";
+import js4 from "@/assets/js-4.jpg.asset.json";
+import js5 from "@/assets/js-5.jpg.asset.json";
+import js6 from "@/assets/js-6.jpg.asset.json";
+import js7 from "@/assets/js-7.jpg.asset.json";
+import js8 from "@/assets/js-8.jpg.asset.json";
+import js9 from "@/assets/js-9.jpg.asset.json";
+import js10 from "@/assets/js-10.jpg.asset.json";
+import js11 from "@/assets/js-11.jpg.asset.json";
+import js12 from "@/assets/js-12.jpg.asset.json";
+
 
 
 export type Tone = "cyan" | "electric" | "magenta" | "gold" | "jade";
