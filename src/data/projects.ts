@@ -70,6 +70,14 @@ import js9 from "@/assets/js-9.jpg.asset.json";
 import js10 from "@/assets/js-10.jpg.asset.json";
 import js11 from "@/assets/js-11.jpg.asset.json";
 import js12 from "@/assets/js-12.jpg.asset.json";
+import mb1 from "@/assets/mybank-1.jpg.asset.json";
+import mb2 from "@/assets/mybank-2.jpg.asset.json";
+import mb3 from "@/assets/mybank-3.jpg.asset.json";
+import mb4 from "@/assets/mybank-4.jpg.asset.json";
+import mb5 from "@/assets/mybank-5.jpg.asset.json";
+import mb6 from "@/assets/mybank-6.jpg.asset.json";
+import mb7 from "@/assets/mybank-7.jpg.asset.json";
+import mb8 from "@/assets/mybank-8.jpg.asset.json";
 
 
 
