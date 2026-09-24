@@ -58,6 +58,19 @@ import ft4 from "@/assets/fittrack-115647.png.asset.json";
 import ft5 from "@/assets/fittrack-115714.png.asset.json";
 import ft6 from "@/assets/fittrack-115734.png.asset.json";
 import ft7 from "@/assets/fittrack-115801.png.asset.json";
+import js1 from "@/assets/js-1.jpg.asset.json";
+import js2 from "@/assets/js-2.jpg.asset.json";
+import js3 from "@/assets/js-3.jpg.asset.json";
+import js4 from "@/assets/js-4.jpg.asset.json";
+import js5 from "@/assets/js-5.jpg.asset.json";
+import js6 from "@/assets/js-6.jpg.asset.json";
+import js7 from "@/assets/js-7.jpg.asset.json";
+import js8 from "@/assets/js-8.jpg.asset.json";
+import js9 from "@/assets/js-9.jpg.asset.json";
+import js10 from "@/assets/js-10.jpg.asset.json";
+import js11 from "@/assets/js-11.jpg.asset.json";
+import js12 from "@/assets/js-12.jpg.asset.json";
+
 
 
 export type Tone = "cyan" | "electric" | "magenta" | "gold" | "jade";
@@ -464,5 +477,57 @@ export const projects: Project[] = [
       { kind: "image", src: story2.url, caption: "Polaroid collage" },
       { kind: "image", src: story3.url, caption: "Our story chapter" },
     ],
+  },
+  {
+    id: "jobseeker",
+    index: "14",
+    title: "JobSeeker",
+    kicker: "Job Application & Recruitment App · Kotlin • Android • Firebase • XML",
+    tagline: "Connecting job seekers and companies, end to end.",
+    description:
+      "A full-featured Android job platform built with Kotlin, connecting job seekers and companies through job discovery, applications, recruitment management, and interview scheduling. Two dedicated experiences — a job-seeker side for browsing, applying and tracking, and a recruiter side for posting jobs and managing candidates — backed by real Firebase authentication and real-time Cloud Firestore data.",
+    features: [
+      "Separate job seeker & recruiter experiences",
+      "Job browsing with search by title, company or skill",
+      "Complete job details — description, requirements, salary",
+      "One-tap apply with cover letter and saved/bookmarked jobs",
+      "Application tracking with live status — in review, hired, rejected",
+      "Profile management with image & CV upload via Cloudinary",
+      "Recruiter dashboard — active jobs, applicants & recent applications",
+      "Post & manage jobs with categories, work mode and salary ranges",
+      "Applicant review — contact info, cover letter, CV attachments",
+      "Shortlisting, hiring stages & interview scheduling",
+      "Company profile management",
+      "Firebase Authentication with real-time Cloud Firestore data",
+    ],
+    tech: [
+      "Kotlin",
+      "Android Studio",
+      "XML",
+      "Firebase Auth",
+      "Cloud Firestore",
+      "Cloudinary",
+      "RecyclerView",
+      "ViewBinding",
+      "Android Navigation",
+    ],
+    role: "Design & full Android development — Kotlin, XML UI, Firebase backend",
+    tone: "electric",
+    layout: "story",
+    media: [
+      { kind: "image", src: js2.url, portrait: true, caption: "Job seeker home & application overview" },
+      { kind: "image", src: js1.url, portrait: true, caption: "Sign in with Firebase Authentication" },
+      { kind: "image", src: js3.url, portrait: true, caption: "Explore active jobs with search" },
+      { kind: "image", src: js4.url, portrait: true, caption: "Job details — description, requirements & apply" },
+      { kind: "image", src: js5.url, portrait: true, caption: "My applications with live status" },
+      { kind: "image", src: js6.url, portrait: true, caption: "Saved jobs bookmarks" },
+      { kind: "image", src: js7.url, portrait: true, caption: "Profile with image & contact details" },
+      { kind: "image", src: js8.url, portrait: true, caption: "Recruiter dashboard — jobs & applicants" },
+      { kind: "image", src: js9.url, portrait: true, caption: "Post a new job form" },
+      { kind: "image", src: js10.url, portrait: true, caption: "Manage posted jobs" },
+      { kind: "image", src: js11.url, portrait: true, caption: "Applicant details — CV & hiring actions" },
+      { kind: "image", src: js12.url, portrait: true, caption: "Company profile" },
+    ],
+    badge: "Android Application",
   },
 ];
