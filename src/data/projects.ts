@@ -78,6 +78,17 @@ import mb5 from "@/assets/mybank-5.jpg.asset.json";
 import mb6 from "@/assets/mybank-6.jpg.asset.json";
 import mb7 from "@/assets/mybank-7.jpg.asset.json";
 import mb8 from "@/assets/mybank-8.jpg.asset.json";
+import re1 from "@/assets/re-1.jpg.asset.json";
+import re2 from "@/assets/re-2.jpg.asset.json";
+import re3 from "@/assets/re-3.jpg.asset.json";
+import re4 from "@/assets/re-4.jpg.asset.json";
+import re5 from "@/assets/re-5.jpg.asset.json";
+import re6 from "@/assets/re-6.jpg.asset.json";
+import re7 from "@/assets/re-7.jpg.asset.json";
+import re8 from "@/assets/re-8.jpg.asset.json";
+import re9 from "@/assets/re-9.jpg.asset.json";
+import re10 from "@/assets/re-10.jpg.asset.json";
+import re11 from "@/assets/re-11.jpg.asset.json";
 
 
 
@@ -581,5 +592,41 @@ export const projects: Project[] = [
       { kind: "image", src: mb6.url, portrait: true, caption: "Profile — details, security & logout" },
     ],
     badge: "Android Application",
+  },
+  {
+    id: "dubai-realestate",
+    index: "16",
+    title: "Real Estate Property Listing App – Dubai",
+    kicker: "Mobile Application Development · Flutter",
+    tagline: "Browse Dubai properties in a clean, modern mobile experience.",
+    description:
+      "A professional Flutter mobile application for real estate property listings in Dubai. Users can explore featured and popular properties, search and filter by type, location and price, view listings on a map, save favorites and message property owners — built with a focus on responsive UI, smooth navigation and clean layouts.",
+    features: [
+      "Flutter mobile application development",
+      "Property listing UI and screens",
+      "Responsive and reusable Flutter widgets",
+      "Navigation between application screens",
+      "Property details and listing presentation",
+      "Search, map view & filters by type, location, price and area",
+      "Favorites, messaging and profile screens",
+      "Testing and fixing UI/functionality issues",
+    ],
+    tech: ["Flutter", "Dart", "Android"],
+    role: "Flutter development — UI, reusable widgets, navigation, functionality integration & testing",
+    tone: "cyan",
+    layout: "story",
+    media: [
+      { kind: "image", src: re3.url, portrait: true, caption: "Home — Dubai location, categories & featured properties" },
+      { kind: "image", src: re1.url, portrait: true, caption: "Onboarding — list your property" },
+      { kind: "image", src: re4.url, portrait: true, caption: "Onboarding — find your perfect property" },
+      { kind: "image", src: re2.url, portrait: true, caption: "Login" },
+      { kind: "image", src: re5.url, portrait: true, caption: "Search with map & nearby listings" },
+      { kind: "image", src: re6.url, portrait: true, caption: "Featured properties — rent, buy or sell" },
+      { kind: "image", src: re8.url, portrait: true, caption: "Filters — type, Dubai location, price & area" },
+      { kind: "image", src: re7.url, portrait: true, caption: "Favorites" },
+      { kind: "image", src: re10.url, portrait: true, caption: "Messages with property owners" },
+      { kind: "image", src: re9.url, portrait: true, caption: "Profile & account settings" },
+      { kind: "image", src: re11.url, portrait: true, caption: "Personal info" },
+    ],
   },
 ];
