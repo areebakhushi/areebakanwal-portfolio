@@ -320,33 +320,6 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "zikar",
-    index: "07",
-    title: "Zikar & Tasbeeh Tracker",
-    kicker: "Daily remembrance, quietly counted",
-    tagline: "A calm, distraction-free counting space.",
-    description:
-      "A minimal Flutter app for tracking daily Zikar and Tasbeeh sessions — set a custom Zikar and target, tap to count, and watch the circular progress fill until the goal is reached.",
-    features: [
-      "Custom Zikar and target count",
-      "Tap-to-count workspace",
-      "Circular progress indicator",
-      "Goal Reached animation",
-      "Reset counter",
-      "Persistent local storage",
-    ],
-    tech: ["Flutter", "Dart", "SQLite", "Hive"],
-    role: "Full design and development",
-    tone: "gold",
-    layout: "gallery",
-    media: [
-      { kind: "image", src: zk1.url, portrait: true, caption: "Tasbeeh dashboard" },
-      { kind: "image", src: zk2.url, portrait: true, caption: "Tap-to-count screen" },
-      { kind: "image", src: zk3.url, portrait: true, caption: "Goal reached" },
-      { kind: "image", src: zk4.url, portrait: true, caption: "Add new Zikar" },
-    ],
-  },
-  {
     id: "little-dream",
     index: "08",
     title: "Little Dream",
