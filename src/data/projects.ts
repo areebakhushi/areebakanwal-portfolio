@@ -41,10 +41,6 @@ import rb10 from "@/assets/rb-new-10.jpg.asset.json";
 import cc1 from "@/assets/codechat-1.png.asset.json";
 import cc2 from "@/assets/codechat-2.png.asset.json";
 
-import zk1 from "@/assets/zikar-183503.png.asset.json";
-import zk2 from "@/assets/zikar-183524.png.asset.json";
-import zk3 from "@/assets/zikar-183546.png.asset.json";
-import zk4 from "@/assets/zikar-183609.png.asset.json";
 import wordpressImg from "@/assets/wordpress-nexcraft.jpg.asset.json";
 import storyVideo from "@/assets/storybook-demo.mp4.asset.json";
 import storyPoster from "@/assets/storybook-demo.jpg.asset.json";
