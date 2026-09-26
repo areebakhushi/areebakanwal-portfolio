@@ -41,10 +41,6 @@ import rb10 from "@/assets/rb-new-10.jpg.asset.json";
 import cc1 from "@/assets/codechat-1.png.asset.json";
 import cc2 from "@/assets/codechat-2.png.asset.json";
 
-import zk1 from "@/assets/zikar-183503.png.asset.json";
-import zk2 from "@/assets/zikar-183524.png.asset.json";
-import zk3 from "@/assets/zikar-183546.png.asset.json";
-import zk4 from "@/assets/zikar-183609.png.asset.json";
 import wordpressImg from "@/assets/wordpress-nexcraft.jpg.asset.json";
 import storyVideo from "@/assets/storybook-demo.mp4.asset.json";
 import storyPoster from "@/assets/storybook-demo.jpg.asset.json";
@@ -320,35 +316,8 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "zikar",
-    index: "07",
-    title: "Zikar & Tasbeeh Tracker",
-    kicker: "Daily remembrance, quietly counted",
-    tagline: "A calm, distraction-free counting space.",
-    description:
-      "A minimal Flutter app for tracking daily Zikar and Tasbeeh sessions — set a custom Zikar and target, tap to count, and watch the circular progress fill until the goal is reached.",
-    features: [
-      "Custom Zikar and target count",
-      "Tap-to-count workspace",
-      "Circular progress indicator",
-      "Goal Reached animation",
-      "Reset counter",
-      "Persistent local storage",
-    ],
-    tech: ["Flutter", "Dart", "SQLite", "Hive"],
-    role: "Full design and development",
-    tone: "gold",
-    layout: "gallery",
-    media: [
-      { kind: "image", src: zk1.url, portrait: true, caption: "Tasbeeh dashboard" },
-      { kind: "image", src: zk2.url, portrait: true, caption: "Tap-to-count screen" },
-      { kind: "image", src: zk3.url, portrait: true, caption: "Goal reached" },
-      { kind: "image", src: zk4.url, portrait: true, caption: "Add new Zikar" },
-    ],
-  },
-  {
     id: "little-dream",
-    index: "08",
+    index: "07",
     title: "Little Dream",
     kicker: "Specially designed birthday website",
     tagline: "A soft pink digital gift you unwrap by scrolling.",
@@ -372,7 +341,7 @@ export const projects: Project[] = [
   },
   {
     id: "birthday-countdown",
-    index: "09",
+    index: "08",
     title: "Birthday Countdown",
     kicker: "Specially designed countdown website",
     tagline: "A live countdown to someone's big day.",
@@ -396,7 +365,7 @@ export const projects: Project[] = [
   },
   {
     id: "birthday-interactive",
-    index: "10",
+    index: "09",
     title: "Interactive Birthday Website",
     kicker: "Specially designed friendship story website",
     tagline: "A scrollytelling birthday letter for a best friend.",
@@ -421,7 +390,7 @@ export const projects: Project[] = [
 
   {
     id: "wedding-invite",
-    index: "11",
+    index: "10",
     title: "Digital Wedding Invitation",
     kicker: "Cinematic invite web experience",
     tagline: "An invitation that unfolds like a short film.",
@@ -451,7 +420,7 @@ export const projects: Project[] = [
   },
   {
     id: "wordpress",
-    index: "12",
+    index: "11",
     title: "WordPress Websites",
     kicker: "NexCraftStudio Internship",
     tagline: "Business sites, built to be handed over.",
@@ -472,7 +441,7 @@ export const projects: Project[] = [
   },
   {
     id: "friendship-storybook",
-    index: "13",
+    index: "12",
     title: "10 Years of Best Friendship",
     kicker: "Specially designed friendship storybook website",
     tagline: "A decade of friendship, published as a magazine you scroll.",
@@ -499,7 +468,7 @@ export const projects: Project[] = [
   },
   {
     id: "jobseeker",
-    index: "14",
+    index: "13",
     title: "JobSeeker",
     kicker: "Job Application & Recruitment App · Kotlin • Android • Firebase • XML",
     tagline: "Connecting job seekers and companies, end to end.",
@@ -551,7 +520,7 @@ export const projects: Project[] = [
   },
   {
     id: "mybank",
-    index: "15",
+    index: "14",
     title: "MyBank",
     kicker: "Banking & Account Management App · Java • Android • XML • OOP",
     tagline: "Core banking operations, built the object-oriented way.",
@@ -595,7 +564,7 @@ export const projects: Project[] = [
   },
   {
     id: "dubai-realestate",
-    index: "16",
+    index: "15",
     title: "Real Estate Property Listing App – Dubai",
     kicker: "Mobile Application Development · Flutter",
     tagline: "Browse Dubai properties in a clean, modern mobile experience.",
