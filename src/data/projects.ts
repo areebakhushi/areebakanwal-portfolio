@@ -317,7 +317,7 @@ export const projects: Project[] = [
   },
   {
     id: "little-dream",
-    index: "08",
+    index: "07",
     title: "Little Dream",
     kicker: "Specially designed birthday website",
     tagline: "A soft pink digital gift you unwrap by scrolling.",
@@ -341,7 +341,7 @@ export const projects: Project[] = [
   },
   {
     id: "birthday-countdown",
-    index: "09",
+    index: "08",
     title: "Birthday Countdown",
     kicker: "Specially designed countdown website",
     tagline: "A live countdown to someone's big day.",
@@ -365,7 +365,7 @@ export const projects: Project[] = [
   },
   {
     id: "birthday-interactive",
-    index: "10",
+    index: "09",
     title: "Interactive Birthday Website",
     kicker: "Specially designed friendship story website",
     tagline: "A scrollytelling birthday letter for a best friend.",
@@ -390,7 +390,7 @@ export const projects: Project[] = [
 
   {
     id: "wedding-invite",
-    index: "11",
+    index: "10",
     title: "Digital Wedding Invitation",
     kicker: "Cinematic invite web experience",
     tagline: "An invitation that unfolds like a short film.",
@@ -420,7 +420,7 @@ export const projects: Project[] = [
   },
   {
     id: "wordpress",
-    index: "12",
+    index: "11",
     title: "WordPress Websites",
     kicker: "NexCraftStudio Internship",
     tagline: "Business sites, built to be handed over.",
@@ -441,7 +441,7 @@ export const projects: Project[] = [
   },
   {
     id: "friendship-storybook",
-    index: "13",
+    index: "12",
     title: "10 Years of Best Friendship",
     kicker: "Specially designed friendship storybook website",
     tagline: "A decade of friendship, published as a magazine you scroll.",
@@ -468,7 +468,7 @@ export const projects: Project[] = [
   },
   {
     id: "jobseeker",
-    index: "14",
+    index: "13",
     title: "JobSeeker",
     kicker: "Job Application & Recruitment App · Kotlin • Android • Firebase • XML",
     tagline: "Connecting job seekers and companies, end to end.",
@@ -520,7 +520,7 @@ export const projects: Project[] = [
   },
   {
     id: "mybank",
-    index: "15",
+    index: "14",
     title: "MyBank",
     kicker: "Banking & Account Management App · Java • Android • XML • OOP",
     tagline: "Core banking operations, built the object-oriented way.",
@@ -564,7 +564,7 @@ export const projects: Project[] = [
   },
   {
     id: "dubai-realestate",
-    index: "16",
+    index: "15",
     title: "Real Estate Property Listing App – Dubai",
     kicker: "Mobile Application Development · Flutter",
     tagline: "Browse Dubai properties in a clean, modern mobile experience.",
